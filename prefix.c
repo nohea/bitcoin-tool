@@ -154,6 +154,25 @@ https://github.com/ppcoin/ppcoin/blob/v0.5.2ppc/src/base58.h#L428
 		.script_prefix           = 196,
 		.private_key_prefix      = 111+128
 	},
+	/*
+AlohaCoin:
+public keys / script:
+https://github.com/
+private keys:
+https://github.com/
+	*/
+        {
+	        .name                    = "alohacoin",
+	        .public_key_prefix       = 23,
+	        .script_prefix           = 83,
+		.private_key_prefix      = 23+128
+        },
+        {
+	        .name                    = "alohacoin-testnet",
+	        .public_key_prefix       = 111,
+	        .script_prefix           = 196,
+		.private_key_prefix      = 111+128
+        },
 /*
 Namecoin:
 public keys / script / private keys:
