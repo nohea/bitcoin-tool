@@ -154,6 +154,25 @@ https://github.com/ppcoin/ppcoin/blob/v0.5.2ppc/src/base58.h#L428
 		.script_prefix           = 196,
 		.private_key_prefix      = 111+128
 	},
+	/*
+NoHCoin:
+public keys / script:
+https://github.com/
+private keys:
+https://github.com/
+	*/
+        {
+	        .name                    = "nohcoin",
+	        .public_key_prefix       = 53,
+	        .script_prefix           = 112,
+		.private_key_prefix      = 53+128
+        },
+        {
+	        .name                    = "nohcoin-testnet",
+	        .public_key_prefix       = 111,
+	        .script_prefix           = 196,
+		.private_key_prefix      = 111+128
+        },
 /*
 Namecoin:
 public keys / script / private keys:
